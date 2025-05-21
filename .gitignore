@@ -1,0 +1,21 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore backup files created by Terraform
+*.backup
+
+# Ignore sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Ignore provider and module configurations
+.terraform/
+.terraform.lock.hcl
+
+# Ignore private key files
+*.pem
+
+# Ignore any Terraform plan output files
+*.tfplan
+
